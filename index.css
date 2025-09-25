@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    font-family: 'Arial', sans-serif;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 800px;
+}
+
+.team-section {
+    text-align: center;
+}
+
+.team-section h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.score-display {
+    background-color: #000;
+    color: #ff6b6b;
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 30px 50px;
+    margin: 20px 0;
+    border-radius: 10px;
+    border: 3px solid #333;
+    font-family: 'Courier New', monospace;
+    min-width: 120px;
+    display: inline-block;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.score-btn {
+    background-color: #1a237e;
+    color: white;
+    border: 2px solid #3949ab;
+    padding: 15px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    min-width: 60px;
+    transition: all 0.2s ease;
+}
+
+.score-btn:hover {
+    background-color: #3949ab;
+    transform: translateY(-2px);
+}
+
+.score-btn:active {
+    transform: translateY(0);
+}
